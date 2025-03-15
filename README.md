@@ -14,7 +14,7 @@ To use `.bashrc`, install oh-my-bash, ble.sh and lsd (LS but made with Rust, ico
 
 To use `gentoo/portage/make.conf`, you can either link (`ln -sf`) it to `/etc/portage/make.conf` OR you can copy-paste it to `/etc/portage`.
 
-## INSTALLATION
+## Installation
 
 ### 1 - Install Packages
 
@@ -28,7 +28,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles checkout
 ```
 
-## SYNCING
+## Syncing
 
 ### Sync
 
