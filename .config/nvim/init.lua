@@ -1,0 +1,2 @@
+require("vimconf")
+require("plugin")
