@@ -25,8 +25,12 @@ My dotfiles are still a WIP and im lazy for now, so you have to find the package
 ```
 git clone --bare https://github.com/cursedUs64-git/dotfiles-v2.git $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+mkdir -p ~/.config-backup
+mv ~/.bashrc ~/.config-backup/
 dotfiles checkout
 ```
+
+This also ensures a backup is made at `~/.config-backup/`.
 
 ## Syncing
 

@@ -1,1 +1,9 @@
 .dotfiles
+*
+.*
+!.gitignore
+!README.md
+!.bashrc
+!gentoo
+!.config
+!Pictures
