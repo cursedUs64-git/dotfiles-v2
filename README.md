@@ -33,6 +33,17 @@ dotfiles checkout
 
 ```
 
+## SYNCING
+
+### Sync
+
+You can sync using the `dotfiles` alias I have included in `.bashrc` by the following:
+```
+
+dotfiles pull
+
+```
+
 # File Structure
 
 ```
