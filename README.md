@@ -4,10 +4,9 @@
 I use:
 
 ```
-
 emerge -avuDN
-
 ```
+
 to always install my packages.
 
 To use `.bashrc`, install oh-my-bash, ble.sh and lsd (LS but made with Rust, icons, and more colourful)
@@ -24,13 +23,9 @@ My dotfiles are still a WIP and im lazy for now, so you have to find the package
 ### 2 - Clone the Repo
 
 ```
-
 git clone --bare https://github.com/cursedUs64-git/dotfiles-v2.git $HOME/.dotfiles
-
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
 dotfiles checkout
-
 ```
 
 ## SYNCING
@@ -39,15 +34,12 @@ dotfiles checkout
 
 You can sync using the `dotfiles` alias I have included in `.bashrc` by the following:
 ```
-
 dotfiles pull
-
 ```
 
 # File Structure
 
 ```
-
 gentoo/portage - Has make.conf
 
 .config - Has my actual dotfiles
@@ -55,5 +47,4 @@ gentoo/portage - Has make.conf
 .bashrc - BASH config
 
 Pictures - Has wallpaper
-
 ```
