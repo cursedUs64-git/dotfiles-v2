@@ -152,6 +152,7 @@ source "$OSH"/oh-my-bash.sh
 EDITOR=nvim
 alias ls="lsd -la"
 alias yay="/usr/bin/yay --needed"
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # cahstom
 _omb_theme_PROMPT_COMMAND
