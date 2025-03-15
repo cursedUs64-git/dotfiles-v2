@@ -151,8 +151,8 @@ source "$OSH"/oh-my-bash.sh
 # alias ohmybash="mate ~/.oh-my-bash"
 EDITOR=nvim
 alias ls="lsd -la"
-alias yay="/usr/bin/yay --needed"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias emerge="emerge -avuDN "
 
 # cahstom
 _omb_theme_PROMPT_COMMAND
